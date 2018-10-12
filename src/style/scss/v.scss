@@ -1,0 +1,20 @@
+@import "../css/global";
+$priceColor:#ff3700;
+$borderColor:#E1E3E6;
+$borderColor2:rgba(225,227,230,50);
+$bgColor:#f3f3f3;
+$bgColorGray:#F9FAFA;
+$mainColor:#07C27F;
+$white:#FFF;
+$gray:#9DA5AD;
+$grayTitle:#858E98;
+$grayTitleBg:#F9FAFA;
+$warningColor:#FF4A1E;
+$fontColor:#44474F;
+$grayLiteBg:#ECEDEF;
+$keyColor:#17191F;
+@mixin over-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
